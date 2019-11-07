@@ -1,2 +1,2 @@
 # simplehost
-DeZKrypŠn jYž BrSy
+Jednoduchý script, na hostování více webů s MySQl na jedné doméně.

@@ -8,7 +8,7 @@ sudo apt-get update
 sudo apt-get install apache2
 sudo apt-get install mysql-server
 sudo apt-get install php libapache2-mod-php php-mysql
-sudo apt-get install upgrade
+sudo apt-get upgrade
 ```
 ### Nastavení MySQL root hesla
 **HESLO** nahraďtě heslem pro root MySQL.

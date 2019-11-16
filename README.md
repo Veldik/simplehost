@@ -20,6 +20,7 @@ sudo service mysql stop
 sudo service mysql start
 ```
 ### phpMyAdmin
+#### Stažení phpMyAdmin
 ```
 sudo apt-get install phpmyadmin
 ```

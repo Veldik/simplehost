@@ -23,6 +23,19 @@ sudo service mysql start
 ```
 sudo apt-get install phpmyadmin
 ```
+#### Vytvoření virtuálního hostu pro phpMyAdmin
+```
+sudo nano /etc/apache2/sites-available/phpmyadmin.conf
+<VirtualHost *:80>
+  ServerAdmin webmaster@example.com
+  ServerName phpmyadmin.example.com
+  DocumentRoot /usr/share/phpmyadmin
+  ErrorLog /var/log/apache2/error.log
+  CustomLog /var/log/apache2/access.log combined
+</VirtualHost>
+sudo a2ensite phpmyadmin.conf
+sudo systemctl restart apache2
+```
 ### Skupiny
 #### Přidání skupiny 
 ```

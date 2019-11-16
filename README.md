@@ -46,6 +46,10 @@ Match Group webuser
     AllowTcpForwarding no
     ForceCommand internal-sftp
 ```
+A restartujte SSHD
+```
+sudo service ssh restart
+```
 ## Registrace uživatele
 Uživatele zaregistrujte pomocí spuštění scriptu, první parametr udává jméno uživatele a druhý parametr udává heslo uživatele:
 ```

@@ -21,6 +21,7 @@ sudo service mysql start
 sudo mysql -u root -p
 # Napište heslo
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'HESLO!'; 
+exit
 ```
 ### phpMyAdmin
 #### Stažení phpMyAdmin

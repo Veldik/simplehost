@@ -45,12 +45,12 @@ sudo systemctl restart apache2
 ### Skupiny
 #### Přidání skupiny 
 ```
-groupadd webuser
+sudo groupadd webuser
 ```
 #### Práva pro skupinu
 Otevřít SSHD config
 ```
-nano /etc/ssh/sshd_config
+sudo nano /etc/ssh/sshd_config
 ```
 Ke konci dokumentu pŕidat hashtag před
 ```
@@ -81,7 +81,7 @@ nano generate_user.sh
 ## Registrace uživatele
 Uživatele zaregistrujte pomocí spuštění scriptu, první parametr udává jméno uživatele a druhý parametr udává heslo uživatele:
 ```
-sh generate_user.sh JMENO HESLO
+sudo sh generate_user.sh JMENO HESLO
 ```
 ## Main Contributors:
 * [Velda](https://github.com/Veldik/)

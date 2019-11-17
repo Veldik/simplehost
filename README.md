@@ -67,12 +67,19 @@ A restartujte SSHD
 ```
 sudo service ssh restart
 ```
+### Instalace skritpu
+Stáhněte skript pomocí:
+```
+wget https://raw.githubusercontent.com/Veldik/simplehost/master/generate_user.sh
+```
+Upravte 4 a 5 řádek na vaše heslo a vaší doménu
+```
+nano generate_user.sh
+```
 ## Registrace uživatele
 Uživatele zaregistrujte pomocí spuštění scriptu, první parametr udává jméno uživatele a druhý parametr udává heslo uživatele:
 ```
 sh generate_user.sh JMENO HESLO
 ```
-## Soon:
-* Přidávání MySQL databáze a uživatele ke generaci.
 ## Main Contributors:
 * [Velda](https://github.com/Veldik/)

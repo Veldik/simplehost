@@ -14,14 +14,12 @@ sudo apt-get upgrade
 **HESLO** nahraďtě heslem pro root MySQL.
 ```
 sudo mysql -u root -p
+# Místo hesla v tento moment napište cokoli a klikněte enter
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'HESLO';
+FLUSH PRIVILEGES;
 exit
 sudo service mysql stop
 sudo service mysql start
-sudo mysql -u root -p
-# Napište heslo
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'HESLO!'; 
-exit
 ```
 ### phpMyAdmin
 #### Stažení phpMyAdmin

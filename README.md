@@ -29,6 +29,7 @@ exit
 sudo apt-get install phpmyadmin
 ```
 #### Vytvoření virtuálního hostu pro phpMyAdmin
+Nahraďte example.com vaší doménou
 ```
 sudo nano /etc/apache2/sites-available/phpmyadmin.conf
 <VirtualHost *:80>

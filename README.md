@@ -18,6 +18,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'HESLO';
 exit
 sudo service mysql stop
 sudo service mysql start
+sudo mysql -u root -p
+# Napište heslo
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'HESLO!'; 
 ```
 ### phpMyAdmin
 #### Stažení phpMyAdmin

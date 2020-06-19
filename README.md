@@ -50,7 +50,7 @@ Otevřít SSHD config
 ```
 sudo nano /etc/ssh/sshd_config
 ```
-Ke konci dokumentu pŕidat hashtag před
+Ke konci dokumentu přidat hashtag před
 ```
 Subsystem sftp /usr/lib/openssh/sftp-server
 ```

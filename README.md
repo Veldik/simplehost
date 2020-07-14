@@ -1,6 +1,6 @@
 # SimpleHost
 Jednoduchý script, na hostování více webů na Apache2 s MySQL na jedné doméně.
-*Funguje na Ubuntu Server 18.04*
+*Otestováno na Ubuntu Server 18.04*
 ## Instalace
 ### LAMP Server
 ```
